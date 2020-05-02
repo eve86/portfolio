@@ -783,6 +783,9 @@ footer P{
   .menu-mobile{
     display: block;
   }
+  .bar {
+    font-size: 3.8rem;
+  }
   .header-pc {
     display: none;
   }
