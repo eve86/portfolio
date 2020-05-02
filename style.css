@@ -861,7 +861,8 @@ footer P{
     width: 100%;
   }
   .box-in1 {
-    font-size: 4.5rem;
+    font-size: 4.5rem;  
+    margin: 1rem;
   }
   .service-item {
     width: 80%;
