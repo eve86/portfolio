@@ -14,6 +14,10 @@ $('.times').click(function () {
   $(".menu-hide").fadeOut();
 });
 
+$(".menu-hide a").click(function () {
+  $(".menu-hide").fadeOut();
+});
+
 $('.header-pc').hover(function () {
   $(this).addClass("slide");
   $("main").addClass("main-slide");
