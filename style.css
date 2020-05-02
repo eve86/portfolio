@@ -789,6 +789,9 @@ footer P{
   main {
     width: 100%;
   }
+  .box-in1 {
+    font-size: 5rem;
+  }
   .service-item {
     width: 80%;
     margin: 20px 0;
