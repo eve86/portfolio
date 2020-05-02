@@ -8,10 +8,12 @@ $(window).scroll(function () {
 
 $('.menu-mobile').click(function () {
   $(".menu-hide").fadeIn();
+  $(this).fadeOut();
 });
 
 $('.times').click(function () {
   $(".menu-hide").fadeOut();
+  $('.menu-mobile').fadeIn();
 });
 
 $(".menu-hide a").click(function () {
@@ -89,6 +91,25 @@ $(window).scroll(function () {
 });
 
 $(window).scroll(function () {
+  $('.works-item').each(function () {
+    var elemPos = $(this).offset().top,
+      scroll = $(window).scrollTop(),
+      windowHeight = $(window).height();
+    if (scroll > elemPos - windowHeight + 100) {
+      $(this).addClass('works-item-show');
+    }
+  });
+});
+
+$('.works-item').hover(function () {
+  $(this).addClass("hover");
+  $(this).find(".works-hide").fadeIn();
+}, function () {
+  $(this).removeClass("hover");
+  $(this).find(".works-hide").hide();
+});
+
+$(window).scroll(function () {
   $('.box-contact').each(function () {
     var elemPos = $(this).offset().top,
       scroll = $(window).scrollTop(),
@@ -98,3 +119,4 @@ $(window).scroll(function () {
     }
   });
 });
+
