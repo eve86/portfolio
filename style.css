@@ -573,7 +573,7 @@ main {
 }
 
 .skill-item img{
-  width: 80%;
+  width: 60%;
   height: auto;
   display: inline-block;
 }
@@ -694,6 +694,10 @@ main {
   transform: translate(-50%,-50%);
   color: white;
   font-weight: bold;
+}
+
+.works-hide a {
+  color: white;
 }
 
 .works-item-show {
@@ -859,15 +863,16 @@ footer P{
 
 @media screen and (max-width: 1025px){
   html {
-    font-size: 24px;
+    font-size: 20px;
   }
   .menu-mobile {
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
   }
   .bar {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .header-pc {
     display: none;
@@ -921,8 +926,9 @@ footer P{
   }
   .menu-mobile {
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
   }
   .bar {
     font-size: 3.8rem;
@@ -948,7 +954,7 @@ footer P{
     flex-direction: column;
   }
   .skill-item {
-    width: 80%;
+    width: 50%;
     margin: 50px auto;
   }
   .works-item {
@@ -987,5 +993,3 @@ footer P{
     order: 7;
   } */
 }
-
-
