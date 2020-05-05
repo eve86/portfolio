@@ -8,12 +8,14 @@ $(window).scroll(function () {
 
 $('.menu-mobile').click(function () {
   $(".menu-hide").fadeIn();
-  $(this).fadeOut();
+  $(".menu-hide li").css("transform","translateX(0px)");
+  $(this).hide();
 });
 
 $('.times').click(function () {
   $(".menu-hide").fadeOut();
   $('.menu-mobile').fadeIn();
+  $(".menu-hide li").css("transform", "translateX(150px)");
 });
 
 $(".menu-hide a").click(function () {
@@ -72,7 +74,7 @@ $(window).scroll(function () {
     var elemPos = $(this).offset().top,
       scroll = $(window).scrollTop(),
       windowHeight = $(window).height();
-    if (scroll > elemPos - windowHeight + 200) {
+    if (scroll > elemPos - windowHeight + 300) {
       $(this).addClass('skill-item-show');
     }
   });
@@ -120,3 +122,12 @@ $(window).scroll(function () {
   });
 });
 
+$('.twitter').hover(function () {
+  $(".w1").addClass("w1-hover");
+  $(".w2").addClass("w2-hover");
+  $(".w3").addClass("w3-hover");
+}, function () {
+    $(".w1").removeClass("w1-hover");
+    $(".w2").removeClass("w2-hover");
+    $(".w3").removeClass("w3-hover");
+});
