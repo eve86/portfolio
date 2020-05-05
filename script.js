@@ -20,7 +20,10 @@ $('.times').click(function () {
 
 $(".menu-hide a").click(function () {
   $(".menu-hide").fadeOut();
+  $('.menu-mobile').fadeIn();
+  $(".menu-hide li").css("transform", "translateX(150px)");
 });
+
 
 $('.header-pc').hover(function () {
   $(this).addClass("slide");
