@@ -178,8 +178,8 @@ a {
   font-size: 4rem;
   color: #ffffff;
   position: absolute;
-  top: 7.5%;
-  right: 6%;
+  top: 50px;
+  right: 30px;
   transform: translateY(-50%);
 }
 
