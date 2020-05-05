@@ -178,8 +178,8 @@ a {
   font-size: 4rem;
   color: #ffffff;
   position: absolute;
-  top: 6%;
-  right: 7%;
+  top: 7.5%;
+  right: 6%;
   transform: translateY(-50%);
 }
 
@@ -196,6 +196,23 @@ text-align: center;
 .menu-hide li{
   border-bottom: 1px solid #626262;
   padding: 5% 0;
+  transform: translateX(150px);
+}
+
+.menu-hide li:nth-of-type(1){
+  transition: all .6s;
+}
+.menu-hide li:nth-of-type(2){
+  transition: all .8s;
+}
+.menu-hide li:nth-of-type(3){
+  transition: all 1s;
+}
+.menu-hide li:nth-of-type(4){
+  transition: all 1.2s;
+}
+.menu-hide li:nth-of-type(5){
+  transition: all 1.4s;
 }
 
 .menu-hide li:first-of-type {
@@ -1059,4 +1076,5 @@ footer P{
     order: 7;
   } */
 }
+
 
