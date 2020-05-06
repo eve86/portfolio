@@ -55,6 +55,7 @@ html {
 body {
   box-sizing: border-box;
   width: 100%;
+  white-space: nowrap;
 }
 
 li {
