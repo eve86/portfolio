@@ -400,6 +400,7 @@ main {
   animation: secondaryImageOverlayIn 0.4s 2s cubic-bezier(.77,0,.175,1),
              secondaryImageOverlayOut 0.4s 2.4s cubic-bezier(.77,0,.175,1);
   animation-fill-mode: both;
+  white-space: nowrap;
 }
 
 .box-in1{
