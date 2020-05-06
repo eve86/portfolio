@@ -413,6 +413,7 @@ main {
   animation:fadeIn .5s 2.2s;
   animation-fill-mode: both;
   font-family: 'Gabriola','Superclarendon',sans-serif;
+  white-space: nowrap;
 }
 
 @keyframes fadeIn {
