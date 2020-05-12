@@ -227,10 +227,11 @@ a {
 }
 
 .menu-hide nav{
+  width: 80%;
   position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .menu-hide ul {
@@ -243,8 +244,9 @@ text-align: center;
 }
 
 .menu-hide li{
+  display: block;
   border-bottom: 1px solid #626262;
-  padding: 5% 0;
+  padding: 5% 0%;
   transform: translateX(150px);
 }
 
@@ -962,6 +964,9 @@ footer P{
   .bar {
     font-size: 2.5rem;
   }
+  .menu-hide nav{
+    width: 50%;
+  }
   .header-pc {
     display: none;
   }
@@ -992,6 +997,9 @@ footer P{
   }
   .bar {
     font-size: 3.8rem;
+  }
+  .menu-hide nav{
+    width: 70%;
   }
   .menu-hide ul {
     margin: 45% 10%;
