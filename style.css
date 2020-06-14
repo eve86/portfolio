@@ -784,7 +784,7 @@ main {
 
 .hover{
   box-shadow: #949494 10px 10px 25px;
-  transform: translateY(-5px);
+  transform: translateY(-10px);
 }
 
 @keyframes worksTop {
