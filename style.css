@@ -733,21 +733,10 @@ main {
   border: 1px #bebebe solid;
   transform: translateY(120px);
   opacity: 0;
-
-}
-
-.wi1 {
   transition: all .6s;
+
 }
-.wi2 {
-  transition: all 1s;
-}
-.wi3 {
-  transition: all 1.2s;
-}
-.wi4 {
-  transition: all 1.4s;
-}
+
 .works-item img {
   width: 100%;
   height:auto;
