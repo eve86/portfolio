@@ -561,8 +561,8 @@ main {
 }
 
 .service-item {
-  width: calc(100% / 3 - 10%);
-  padding: 7% 0;
+  width: calc(100% / 3 - 6%);
+  padding: 6% 0;
   background-color: #ffffff;
   border: 0px solid black;
   box-shadow: #c2c2c2 0 0 15px;
