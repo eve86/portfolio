@@ -271,7 +271,7 @@ text-align: center;
 }
 
 .header-pc {
-  width: 20%;
+  width: 250px;
   height: 100vh;
   background-color: #ebebeb;
   position: fixed;
@@ -348,13 +348,13 @@ text-align: center;
 }
 
 main {
-  width: 97.4%;
+  width: 100%;
   float: right;
   transition: all .5s;
 }
 
 .main-slide{
-  width: 80%;
+  width: 100%;
 }
 
 .home {
@@ -565,7 +565,7 @@ main {
   padding: 7% 0;
   background-color: #ffffff;
   border: 0px solid black;
-  box-shadow: #9f9f9f 0 0 25px;
+  box-shadow: #c2c2c2 0 0 15px;
   border-radius: 1%;
   transition: all 1.5s;
   transform: translateX(-30%);
@@ -1004,8 +1004,9 @@ footer P{
     margin: 1rem;
   }
   .service-item {
-    width: 80%;
-    margin: 20px 0;
+    width: 95%;
+    padding: 60px 0;
+    margin: 10px 0 ;
   }
   .skill-items {
     flex-direction: column;
