@@ -24,11 +24,12 @@ $('.menu-mobile').click(function () {
     $('.menu-mobile').toggleClass("bgnone");
     $(".menu-hide").fadeOut();
     $(".menu-hide li").css("transform", "translateX(150px)");
-
+    $(".twitter-mobile").removeClass("twitter-mobile-hide");
   } else {
     $(".menu-trigger").toggleClass("active");
     $('.menu-mobile').toggleClass("bgnone");
     $(".menu-hide").fadeIn();
+    $(".twitter-mobile").addClass("twitter-mobile-hide");
     $(".menu-hide li").css("transform","translateX(0px)")
   }
 });
