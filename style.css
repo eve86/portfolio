@@ -149,6 +149,11 @@ a {
   opacity: 1;
 }
 
+.twitter-mobile-hide {
+  transform: translateX(80px);
+  opacity: 0;
+}
+
 .menu-mobile {
   position: fixed;
   top: 10px;
@@ -1043,4 +1048,3 @@ footer P{
     margin: 20px 0;
   }
 }
-
