@@ -6,6 +6,18 @@ $(window).scroll(function () {
   }
 });
 
+$(window).bind("scroll", function() {
+	scrollHeight = $(document).height();
+	scrollPosition = $(window).height() + $(window).scrollTop();
+	if ( (scrollHeight - scrollPosition) / scrollHeight <= 0.01) {
+		$(".twitter-mobile").removeClass("twitter-mobile-show");
+	} else if ($(this).scrollTop() < 50){
+        $(".twitter-mobile").removeClass("twitter-mobile-show");
+    } else {
+		$(".twitter-mobile").addClass("twitter-mobile-show")
+	}
+});
+
 $('.menu-mobile').click(function () {
   if ($(".menu-trigger").hasClass("active")) {
     $(".menu-trigger").toggleClass("active");
