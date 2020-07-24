@@ -128,12 +128,32 @@ a {
   }
 }
 
+.twitter-mobile {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 100;
+  background-color: #00acee;
+  color: white;
+  font-size: 2.6rem;
+  padding: 20px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all .4s;
+  transform: translateY(150px);
+  display: none;
+}
+
+.twitter-mobile-show {
+  transform: translateY(0px);
+  opacity: 1;
+}
 
 .menu-mobile {
   position: fixed;
   top: 10px;
   right: 10px;
-  z-index: 130;
+  z-index: 100;
   width: 100px;
   height: 100px;
   background-color: rgba(200,200,200,0.6);
@@ -557,7 +577,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 80px 0;
+  margin: 80px 0px;
 }
 
 .service-item {
@@ -983,6 +1003,9 @@ footer P{
     width: 80px;
     height: 80px;
     border-radius: 10px;
+  }
+  .twitter-mobile {
+    display: inline-block;
   }
   .bar {
     font-size: 3.8rem;
