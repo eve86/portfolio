@@ -582,19 +582,22 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 80px 0px;
+  margin: 90px 0px;
 }
 
 .service-item {
   width: calc(100% / 3 - 6%);
-  padding: 6% 0;
-  background-color: #ffffff;
-  border: 0px solid black;
-  box-shadow: #c2c2c2 0 0 15px;
-  border-radius: 1%;
+  padding: 5% 0;
   transition: all 1.5s;
   transform: translateX(-30%);
   opacity: 0;
+  box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
+  background: hsl(0 0% 100%);
+  color: hsl(200 50% 20%);
+  place-items: center;
+  text-align: center;
+  border-radius: 2ch;
+  border: 1px solid hsl(0 0% 83%);
 }
 
 .service-item-icom {
@@ -605,6 +608,13 @@ main {
 .service-item h3 {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.service-item p {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: left;
+  padding: 5% 10%;
 }
 
 .service-item2 {
@@ -1046,5 +1056,6 @@ footer P{
   .works-item {
     width: calc(100% - 3%);
     margin: 20px 0;
-  } 
+  }
 }
+
