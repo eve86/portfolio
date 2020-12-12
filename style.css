@@ -431,7 +431,7 @@ main {
 }
 
 .box-in1{
-  font-size: 6.5rem;
+  font-size: 5.5rem;
   margin: 0.05em;
   letter-spacing: 8px;
   font-weight: bold;
@@ -586,7 +586,7 @@ main {
 }
 
 .service-item {
-  width: calc(100% / 3 - 6%);
+  width: calc(100% / 3 - 4%);
   padding: 5% 0;
   transition: all 1.5s;
   transform: translateX(-30%);
@@ -774,8 +774,8 @@ main {
 
 .works-item img {
   width: 100%;
-  height:auto;
   display: inline-block;
+  vertical-align:top;
 }
 
 .works-hide {
