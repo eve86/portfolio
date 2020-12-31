@@ -925,7 +925,10 @@ footer P{
 
 @media screen and (max-width: 767px){
   html {
-    font-size: 14px;
+    font-size: 13px;
+  }
+  .big-in1 {
+    font-family: 'Gabriola','Superclarendon','Bradley Hand',sans-serif;
   }
   .menu-mobile {
     display: block;
